@@ -3,7 +3,7 @@ use CustomerManagement;
 
 create table Customer(
 cID int primary key unique,
-cName varchar(40),
+cName varchar(50),
 cAge int(50)
 );
 
